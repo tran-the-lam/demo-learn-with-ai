@@ -7,7 +7,6 @@ import json
 from typing import Any, Optional
 import os
 
-# URL kết nối cơ sở dữ liệu (thay đổi theo cấu hình của bạn)  
 # example = "postgresql://user:password@localhost/dbname" 
 # example = "sqlite:///webui.db" 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///webui.db")
